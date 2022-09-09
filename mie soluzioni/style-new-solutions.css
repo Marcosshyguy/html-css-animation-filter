@@ -173,7 +173,6 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
-    border: 1px solid black;
 }
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
@@ -187,12 +186,14 @@
 /* dodici */
 .ex-12-button:hover .ex-12-top-white{
     animation-name: animation1;
-    animation-duration: 6s;
+    animation-duration: 3s;
+    animation-timing-function: linear;
 }
 
 .ex-12-button:hover .ex-12-bottom-white{
     animation-name: animation2;
-    animation-duration: 6s;
+    animation-duration: 3s;
+    animation-timing-function: linear;
 }
 
 @keyframes animation1{
@@ -215,5 +216,61 @@
     100%{
         bottom: -10px; 
         right:calc(80% - 60px);
+    }
+}
+
+/* tredici */
+
+.ex-13-button:hover .ex-13-top-white{
+    animation-name: movement1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation-name: movement2;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+
+@keyframes movement1{
+    0%{
+        top: -10px;
+        left: 10%;
+        
+    }
+    25%{
+        top:-10px; 
+        left: 90%;
+        
+    }
+    75%{
+        top:calc(100% - 10px);
+        left: 90%;
+    }
+    100%{
+        top:calc(100% - 10px);
+        left:calc(90% - 30px);
+    }
+}
+
+@keyframes movement2{
+    0%{
+        bottom: -10px;
+        right: 20%;
+        
+    }
+    25%{
+        bottom:-10px; 
+        right: 90%;
+        
+    }
+    75%{
+        bottom:calc(100% - 10px);
+        right: 90%;
+    }
+    100%{
+        bottom:calc(100% - 10px);
+        right:calc(90% - 30px);
     }
 }
