@@ -110,7 +110,6 @@
 
 .ex-10-icon {
     font-size: 60px;
-    transform: rotate(0);
     animation-name: caricamento;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -127,10 +126,33 @@
 }
 
     }
+/* undici */
 
 .ex-11-icon {
     font-size: 60px;
+    
 }
+
+.ex-11-icon:hover{
+    animation-name: caricamento2;
+    animation-duration: 3s;
+}
+
+@keyframes caricamento2 {
+    0% {
+        transform: rotate(0);
+
+}
+    50%{transform: rotate(270deg);
+
+}
+    100% {
+    transform: rotate(0deg);
+}
+
+    }
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
