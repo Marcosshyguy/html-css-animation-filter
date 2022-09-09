@@ -35,13 +35,22 @@
     border-radius: 50%;
 }
 
-
+/* quarto */
 
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 3s;
 }
+
+.ex-4-square:hover{
+    opacity: 0;
+}
+
+/* quarto */
+
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
