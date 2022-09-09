@@ -92,10 +92,21 @@
     border-radius: 15px;
 }
 
+/* nove */
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: all 2s;
 }
+
+.ex-9-img:hover{
+    filter: grayscale(50%) sepia(30%);
+    border-radius: 20%;
+    transform: scale( 150%, 150%);
+}
+
+
 .ex-10-icon {
     font-size: 60px;
 }
