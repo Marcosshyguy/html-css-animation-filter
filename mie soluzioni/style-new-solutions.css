@@ -106,10 +106,28 @@
     transform: scale( 150%, 150%);
 }
 
+/* dieci */
 
 .ex-10-icon {
     font-size: 60px;
+    transform: rotate(0);
+    animation-name: caricamento;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
+
+@keyframes caricamento {
+    0% {
+        transform: rotate(0);
+
+}
+    100% {
+    transform: rotate(360deg);
+}
+
+    }
+
 .ex-11-icon {
     font-size: 60px;
 }
