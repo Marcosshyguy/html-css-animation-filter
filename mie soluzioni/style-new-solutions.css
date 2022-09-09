@@ -85,6 +85,13 @@
     filter: hue-rotate(270deg) drop-shadow(20px 10px 7px);
 }
 
+/* ottavo */
+
+.ex-8-img:hover{
+    filter: opacity(40%) invert(60%);
+    border-radius: 15px;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
