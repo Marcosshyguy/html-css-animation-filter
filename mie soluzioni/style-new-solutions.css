@@ -79,6 +79,12 @@
     filter: grayscale(1);
 }
 
+/* settimo */
+
+.ex-7-img:hover{
+    filter: hue-rotate(270deg) drop-shadow(20px 10px 7px);
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
